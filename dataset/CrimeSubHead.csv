@@ -1,0 +1,28 @@
+CrimeSubHeadID,CrimeHeadID,CrimeHeadName,SeqID
+1,1,Murder,1
+2,1,Attempt to Murder,2
+3,1,Grievous Hurt,3
+4,1,Assault,4
+5,2,Theft,1
+6,2,Robbery,2
+7,2,Burglary,3
+8,2,Dacoity,4
+9,2,Criminal Trespass,5
+10,3,Dowry Harassment,1
+11,3,Molestation,2
+12,3,Domestic Violence,3
+13,3,Stalking,4
+14,4,POCSO Offences,1
+15,4,Child Trafficking,2
+16,4,Child Labour,3
+17,5,Online Financial Fraud,1
+18,5,Hacking,2
+19,5,Cyberstalking,3
+20,5,Identity Theft,4
+21,6,NDPS - Possession,1
+22,6,NDPS - Trafficking,2
+23,7,Cheating,1
+24,7,Criminal Breach of Trust,2
+25,7,Forgery,3
+26,8,Rioting,1
+27,8,Unlawful Assembly,2

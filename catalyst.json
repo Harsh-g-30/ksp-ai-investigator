@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "targets": [
+      "backend"
+    ],
+    "ignore": [],
+    "source": "functions"
+  },
+  "client": {
+    "source": "app",
+    "plugin": "zcatalyst-cli-plugin-react"
+  }
+}

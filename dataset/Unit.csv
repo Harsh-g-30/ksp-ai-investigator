@@ -1,0 +1,43 @@
+UnitID,UnitName,TypeID,ParentUnit,NationalityID,StateID,DistrictID,Active
+1,Bengaluru Rural PS,1,,1,1,1,true
+2,Bengaluru Town PS,1,,1,1,1,true
+3,Bengaluru East PS,1,,1,1,1,true
+4,Bengaluru Central PS,1,,1,1,1,true
+5,Bengaluru Central PS,1,,1,1,1,true
+6,Bengaluru Rural PS,1,,1,1,2,true
+7,Bengaluru CEN Crime PS,1,,1,1,2,true
+8,Bengaluru Rural PS,1,,1,1,2,true
+9,Mysuru North PS,1,,1,1,3,true
+10,Mysuru Town PS,1,,1,1,3,true
+11,Mysuru Town PS,1,,1,1,3,true
+12,Mysuru Rural PS,1,,1,1,3,true
+13,Mysuru Central PS,1,,1,1,3,true
+14,Belagavi CEN Crime PS,1,,1,1,4,true
+15,Belagavi Cyber Crime PS,1,,1,1,4,true
+16,Belagavi Town PS,1,,1,1,4,true
+17,Ballari Central PS,1,,1,1,5,true
+18,Ballari CEN Crime PS,1,,1,1,5,true
+19,Ballari North PS,1,,1,1,5,true
+20,Ballari Central PS,1,,1,1,5,true
+21,Ballari South PS,1,,1,1,5,true
+22,Dakshina East PS,1,,1,1,6,true
+23,Dakshina Town PS,1,,1,1,6,true
+24,Dakshina Traffic PS,1,,1,1,6,true
+25,Dakshina North PS,1,,1,1,6,true
+26,Dakshina West PS,1,,1,1,6,true
+27,Kalaburagi Traffic PS,1,,1,1,7,true
+28,Kalaburagi Central PS,1,,1,1,7,true
+29,Kalaburagi West PS,1,,1,1,7,true
+30,Kalaburagi Rural PS,1,,1,1,7,true
+31,Tumakuru North PS,1,,1,1,8,true
+32,Tumakuru Rural PS,1,,1,1,8,true
+33,Tumakuru West PS,1,,1,1,8,true
+34,Shivamogga Cyber Crime PS,1,,1,1,9,true
+35,Shivamogga East PS,1,,1,1,9,true
+36,Shivamogga Town PS,1,,1,1,9,true
+37,Shivamogga South PS,1,,1,1,9,true
+38,Hubballi-Dharwad Rural PS,1,,1,1,10,true
+39,Hubballi-Dharwad North PS,1,,1,1,10,true
+40,Hubballi-Dharwad Rural PS,1,,1,1,10,true
+41,Hubballi-Dharwad CEN Crime PS,1,,1,1,10,true
+42,Hubballi-Dharwad East PS,1,,1,1,10,true

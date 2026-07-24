@@ -1,0 +1,1 @@
+{"model":"crm-di-glm47b_30b_it","messages":[{"role":"user","content":"Say hello in exactly one word, nothing else."}],"max_tokens":30,"chat_template_kwargs":{"enable_thinking":false}} 

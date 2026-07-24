@@ -1,0 +1,6 @@
+ActCode,ActDescription,ShortName,Active
+IPC,"Indian Penal Code, 1860",IPC,true
+POCSO,"Protection of Children from Sexual Offences Act, 2012",POCSO,true
+NDPS,"Narcotic Drugs and Psychotropic Substances Act, 1985",NDPS,true
+ITACT,"Information Technology Act, 2000",IT Act,true
+MVACT,"Motor Vehicles Act, 1988",MV Act,true

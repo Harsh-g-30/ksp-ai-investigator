@@ -1,0 +1,30 @@
+{
+  "defaults": {
+    "project": 1,
+    "env": 1
+  },
+  "actives": {
+    "project": 1,
+    "env": 1
+  },
+  "projects": [
+    {
+      "idx": 1,
+      "id": "44972000000032001",
+      "name": "Rakshakanalytics",
+      "domain": {
+        "id": "50044084664",
+        "name": "rakshakanalytics-60074366475.development"
+      },
+      "timezone": "Asia/Kolkata",
+      "env": [
+        {
+          "idx": 1,
+          "id": "60074366475",
+          "name": "Development",
+          "type": 3
+        }
+      ]
+    }
+  ]
+}

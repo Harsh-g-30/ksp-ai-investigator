@@ -1,0 +1,19 @@
+SectionRowKey,ActCode,SectionCode,SectionDescription,Active
+IPC_302,IPC,302,Punishment for murder,true
+IPC_307,IPC,307,Attempt to murder,true
+IPC_323,IPC,323,Voluntarily causing hurt,true
+IPC_354,IPC,354,Assault on woman with intent to outrage modesty,true
+IPC_379,IPC,379,Theft,true
+IPC_392,IPC,392,Robbery,true
+IPC_420,IPC,420,Cheating and dishonestly inducing delivery of property,true
+IPC_406,IPC,406,Criminal breach of trust,true
+IPC_498A,IPC,498A,Husband or relative subjecting woman to cruelty,true
+IPC_506,IPC,506,Criminal intimidation,true
+POCSO_4,POCSO,4,Punishment for penetrative sexual assault,true
+POCSO_8,POCSO,8,Punishment for sexual assault,true
+NDPS_20,NDPS,20,Punishment for contravention involving cannabis,true
+NDPS_22,NDPS,22,Punishment for offences involving psychotropic substances,true
+ITACT_66,ITACT,66,Computer related offences,true
+ITACT_66C,ITACT,66C,Identity theft,true
+ITACT_66D,ITACT,66D,Cheating by personation using computer resource,true
+MVACT_184,MVACT,184,Dangerous driving,true
