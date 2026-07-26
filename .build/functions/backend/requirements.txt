@@ -1,3 +1,4 @@
 zcatalyst_sdk==1.4.0
 Flask
 requests
+python-dotenv

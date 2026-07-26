@@ -1,4 +1,9 @@
 import os
+from config import (
+    ZOHO_CLIENT_ID,
+    ZOHO_CLIENT_SECRET,
+    ZOHO_REFRESH_TOKEN,
+)
 import time
 import token
 from urllib import response
@@ -30,9 +35,9 @@ def get_access_token():
     response = requests.post(
         "https://accounts.zoho.in/oauth/v2/token",
         data={
-            "refresh_token": "1000.d793d9c62a163ab1d1cdc1cb5c8ac003.c93ed8aa2db1f5ce7e2cf95abf134e9c",
-            "client_id": "1000.9TZQL2S5ULLXAJL44FGQTHC6V5GCKX",
-            "client_secret": "ff7db1a0e889134d89b6cb6dc234ae53366c593604",
+            "refresh_token": ZOHO_REFRESH_TOKEN,
+            "client_id": ZOHO_CLIENT_ID,
+            "client_secret": ZOHO_CLIENT_SECRET,
             "grant_type": "refresh_token",
         },
         timeout=10,
@@ -115,7 +120,7 @@ def ask_llm(
         QUICKML_CHAT_URL,
         json=payload,
         headers=headers,
-        timeout=30,
+        timeout=60,
     )
 
     print("Status Code:", response.status_code)
