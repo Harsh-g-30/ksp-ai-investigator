@@ -1,86 +1,556 @@
-# KSP Crime AI Investigator 🔍
+# 🚔 RakshakAnalytics - AI Crime Intelligence Platform for Karnataka State Police
 
-**An Intelligent Conversational AI Platform for Crime Database Analysis**
+<p align="center">
 
-## Live Demo
-🔴 **[https://rakshakanalytics-60074366475.development.catalystserverless.in/app/index.html]**
+# 🔍 KSP Crime AI Investigator
 
-## What It Does
+### Conversational Intelligence • Crime Analytics • Criminal Network Analysis • AI Case Briefs • Demographic Insights
 
-### ✅ Conversational Crime Intelligence
-- **Natural Language Queries**: Ask questions in plain English about crimes, offenders, victims
-- **Explainable AI**: Every answer shows the SQL query used and data evidence
-- **Smart Query Generation**: GLM-4.7-Flash LLM converts English → SQL automatically
+**Datathon 2026 Submission**  
+**Challenge:** Intelligent Conversational AI for Karnataka State Police Crime Database
 
-### Example Queries
-- "How many murder cases are there?" → **Analyzes crime data, returns count + SQL + evidence**
-- "Show repeat offenders" → **Identifies criminals across multiple cases**
-- "How many robbery cases?" → **Trends and counts by crime type**
+</p>
 
-## Key Features
+---
 
-| Feature | Status | Details |
-|---------|--------|---------|
-| Natural Language Chatbot | ✅ Live | GLM-4.7-Flash powered |
-| Explainable AI | ✅ Live | SQL transparency + evidence trails |
-| Crime Analytics | ✅ Live | 450 real crime cases in database |
-| PDF Export | ✅ Live | Download chat history |
-| Repeat Offender Detection | ✅ Live | Identifies criminals across cases |
+## 🚀 Live Demo
 
-## Architecture
+### 🌐 Web Application
 
+https://rakshakanalytics-60074366475.development.catalystserverless.in/app/index.html
 
-Frontend: React (Conversational UI)
+---
+
+# 📖 Overview
+
+RakshakAnalytics is an AI-powered Crime Intelligence Platform designed for the Karnataka State Police to transform how investigators explore and analyze crime data.
+
+Instead of manually searching multiple database tables, investigators can simply ask questions in natural language and instantly receive:
+
+- AI-generated answers
+- Explainable SQL queries
+- Supporting evidence
+- Crime analytics
+- Criminal relationship networks
+- AI-generated case briefs
+- Socio-demographic insights
+- Repeat offender profiling
+
+The platform combines Conversational AI, Explainable AI, Crime Analytics, Criminal Network Analysis, and Investigator Decision Support into a single interface.
+
+---
+
+# 🎯 Problem Statement
+
+Modern policing requires officers to analyze thousands of FIRs, accused records, victims, arrests, charge sheets, and investigation reports spread across numerous databases.
+
+Traditional database querying:
+
+❌ Requires SQL knowledge
+
+❌ Time consuming
+
+❌ Difficult to discover hidden criminal relationships
+
+❌ Difficult to identify repeat offenders
+
+❌ Limited analytical capabilities
+
+Our solution enables officers to simply ask:
+
+> "Show repeat offenders involved in murder cases."
+
+or
+
+> "How many robbery cases were reported?"
+
+and instantly receive intelligent, explainable answers.
+
+---
+
+# ✨ Features
+
+---
+
+## 💬 AI Conversational Crime Investigator
+
+- Natural Language Crime Queries
+- Explainable AI Responses
+- SQL Query Generation
+- Raw Evidence Display
+- Context-based Investigation
+- Conversation History
+- Chat Export
+- Investigator Friendly Interface
+
+Example Questions
+
+- How many murder cases?
+- Show repeat offenders
+- Cases involving Jason Pingle
+- Theft cases in Bengaluru
+- Show accused involved in multiple FIRs
+
+---
+
+## 🌍 Multilingual Support
+
+Supports multiple languages directly from the interface.
+
+Current Languages
+
+✅ English
+
+✅ Kannada
+
+Features
+
+- Dynamic language switching
+- Localized interface
+- Localized placeholders
+- Kannada investigation workflow
+
+---
+
+## 🎤 Voice Enabled Investigation
+
+Investigators can speak their questions instead of typing.
+
+Features
+
+- Browser Speech Recognition
+- Voice-to-Text
+- Hands-free Investigation
+- Integrated directly into Chat
+
+---
+
+## 📊 Crime Analytics Dashboard
+
+Provides an overview of crime trends and offender statistics.
+
+### Dashboard Includes
+
+✅ Total Crime Statistics
+
+✅ Crime Type Distribution
+
+✅ Repeat Offender Ranking
+
+✅ Crime Hotspot Summary
+
+Interactive visualizations allow investigators to quickly identify:
+
+- Major crime categories
+- Frequent offenders
+- Crime concentration
+
+---
+
+## 🕸 Criminal Network Analysis
+
+Interactive criminal relationship visualization.
+
+Features
+
+- Co-Accused Relationship Graph
+- Criminal Network Visualization
+- Investigation Timeline
+- Case Connections
+- Relationship Mapping
+- Evidence Tracking
+- Key Investigative Leads
+
+Allows investigators to discover hidden links between criminals across multiple cases.
+
+---
+
+## 📋 AI Case Brief Generator
+
+Automatically summarizes investigation data into readable case briefs.
+
+Includes
+
+- Investigation Summary
+- Timeline
+- Important Events
+- Evidence Summary
+- Key Leads
+- Officer Friendly Report
+
+---
+
+## 👥 Socio-Demographic Crime Intelligence
+
+Advanced demographic analysis of offenders.
+
+Visualizations include
+
+- Age Distribution
+- Gender Distribution
+- Occupation Distribution
+- Risk Analysis
+- Crime Profile Analysis
+
+---
+
+## ⚠ Offender Risk Profiling
+
+Automatically identifies habitual offenders.
+
+Features
+
+- Risk Score
+- Offence Count
+- Risk Classification
+- Average Sentence
+- High Risk Identification
+
+---
+
+## 🔍 Explainable AI
+
+Every AI answer includes
+
+✅ Generated SQL
+
+✅ Database Evidence
+
+✅ Natural Language Summary
+
+No black-box responses.
+
+Investigators can verify every answer.
+
+---
+
+## 📄 Export
+
+Export investigation conversations for reporting.
+
+Supports
+
+- Chat Export
+
+---
+
+# 📸 Platform Modules
+
+## 💬 Conversational AI
+
+- AI Chat Interface
+- Voice Input
+- SQL Generation
+- Evidence Display
+
+---
+
+## 📊 Analytics Dashboard
+
+- Crime Distribution
+- Repeat Offenders
+- Hotspots
+- Statistics
+
+---
+
+## 🕸 Criminal Network
+
+- Criminal Relationship Graph
+- Investigation Timeline
+- Case Links
+- Evidence Tracking
+
+---
+
+## 📋 Case Brief
+
+- AI Generated Summary
+- Timeline
+- Investigation Notes
+
+---
+
+## 👥 Demographics
+
+- Age Analysis
+- Gender Analysis
+- Occupation Analysis
+- Risk Scoring
+
+---
+
+# 🏗 System Architecture
+
+```
+                        React Frontend
+
+        ┌──────────────────────────────────────┐
+        │                                      │
+        │  Chat Assistant                      │
+        │  Analytics Dashboard                 │
+        │  Criminal Network                    │
+        │  Case Brief                          │
+        │  Demographics                        │
+        │                                      │
+        └──────────────────────────────────────┘
+
+                      │
+
+                      ▼
+
+          Catalyst Advanced I/O Backend
+
+                      │
+
+      ┌───────────────┼────────────────┐
+      ▼               ▼                ▼
+
+ Natural Language   Analytics     Network Engine
+      Engine
+
+              │
+
+              ▼
+
+        GLM-4.7 Flash LLM
+
+              │
+
+              ▼
+
+ Catalyst Data Store (26 Relational Tables)
+
+              │
+
+              ▼
+
+ Crime Database
+```
+
+---
+
+# ⚙ How It Works
+
+### Step 1
+
+Investigator asks
+
+> "Show repeat offenders"
+
 ↓
-Backend: Python (Catalyst Advanced I/O)
+
+### Step 2
+
+LLM converts Natural Language into SQL
+
 ↓
-LLM: GLM-4.7-Flash (Natural Language → SQL)
+
+### Step 3
+
+Catalyst executes SQL
+
 ↓
-Database: Catalyst Data Store (26 tables, 450+ cases)
 
+### Step 4
 
-## How It Works
+Results returned
 
-1. **User asks in English**: "How many murder cases?"
-2. **LLM generates SQL**: `SELECT COUNT(CaseMasterID) FROM CaseMaster WHERE CrimeMinorHeadID = 1`
-3. **Database executes**: Returns result
-4. **LLM summarizes**: "There are 15 murder cases in the database"
-5. **UI shows**: Answer + SQL query + Raw evidence data
+↓
 
-## Tech Stack
+### Step 5
 
-- **Frontend**: React 18, CSS3
-- **Backend**: Python 3.13, Catalyst Framework
-- **LLM**: Zoho QuickML (GLM-4.7-Flash)
-- **Database**: Catalyst Data Store (ZCQL)
-- **Deployment**: Catalyst AppSail Serverless
+AI summarizes results
 
-## Dataset
+↓
 
-- **450 real crime cases** across Karnataka
-- **26 relational tables**: Cases, Accused, Victims, Crimes, Arrests, Chargesheets
-- **1,131 accused records** with repeat offender identification
-- **883 victim records**
-- **Crime classifications**: Murder, Robbery, Theft, POCSO, Cyber Crime, etc.
+### Step 6
 
-## What Makes This Special
+Platform displays
 
-✨ **Transparent AI**: No black boxes — every answer backed by SQL query  
-⚡ **Real-time Analysis**: Sub-second queries on 450+ cases  
-🎯 **Investigator-Focused**: Designed for law enforcement decision-making  
-🔐 **Secure**: Role-based access, audit logs (ready for compliance)  
+- Natural Language Answer
+- SQL Query
+- Evidence
+- Analytics
 
-## Next Phase (Future Enhancements)
+---
 
-- 🌍 Multi-language support (Kannada, Hindi)
-- 🎤 Voice interaction
-- 📊 Advanced analytics (hotspots, trends, forecasting)
-- 🕸️ Criminal network visualization
-- 🧠 Behavioral profiling & risk scoring
+# 🛠 Technology Stack
 
-## Submission Details
+## Frontend
 
-**Challenge**: Intelligent Conversational AI for KSP Crime Database  
-**Hackathon**: Datathon 2026  
-**Team**: Rakshakanalytics
-**GitHub**: [Harsh-g-30/ksp-ai-investigator](https://github.com/Harsh-g-30/ksp-ai-investigator)
+- React 18
+- CSS3
+- React Flow
+- HTML5
+
+## Backend
+
+- Python 3.13
+- Catalyst Advanced I/O
+
+## AI
+
+- GLM-4.7 Flash
+- Prompt Engineering
+
+## Database
+
+- Zoho Catalyst Data Store
+- ZCQL
+
+## Deployment
+
+- Catalyst AppSail
+
+---
+
+# 📂 Dataset
+
+Dataset Includes
+
+- 450+ Crime Cases
+- 26 Relational Tables
+- 1,100+ Accused Records
+- 880+ Victim Records
+
+Tables include
+
+- Case Master
+- FIR
+- Arrest
+- Charge Sheet
+- Crime Head
+- Crime Sub Head
+- Accused
+- Victim
+- Police Units
+- District
+- Sections
+- Acts
+
+---
+
+# 🎯 Key Capabilities
+
+✅ Natural Language Investigation
+
+✅ Explainable SQL
+
+✅ Evidence Visualization
+
+✅ Crime Analytics
+
+✅ Criminal Network Analysis
+
+✅ Repeat Offender Detection
+
+✅ AI Case Brief Generation
+
+✅ Demographic Analysis
+
+✅ Risk Profiling
+
+✅ Voice Input
+
+✅ English Support
+
+✅ Kannada Support
+
+---
+
+# 🔒 Security
+
+Current
+
+- OAuth Authentication
+- Catalyst Security
+
+Upcoming
+
+- Role Based Access Control
+- Audit Logs
+- Permission Management
+
+---
+
+# 📈 Future Roadmap
+
+### AI
+
+- Hindi Support
+- AI Translation
+- Context Memory
+- Multi-turn Investigation
+
+### Analytics
+
+- Predictive Crime Forecasting
+- Seasonal Crime Analysis
+- Heat Maps
+- Geographic Clustering
+
+### Investigation
+
+- Financial Crime Analysis
+- Money Trail Detection
+- Vehicle Link Analysis
+- Phone Call Relationship Analysis
+- CCTV Intelligence
+
+### Intelligence
+
+- AI Risk Prediction
+- Crime Pattern Detection
+- Organized Crime Detection
+
+### Platform
+
+- Mobile Application
+
+- Officer Dashboard
+
+- Supervisor Dashboard
+
+- Policy Maker Dashboard
+
+---
+
+# 💡 Why RakshakAnalytics?
+
+Unlike traditional crime management systems, RakshakAnalytics combines
+
+- Conversational AI
+- Explainable AI
+- Criminal Intelligence
+- Relationship Analysis
+- Interactive Analytics
+- Investigator Decision Support
+
+into one integrated platform.
+
+This enables investigators to move beyond searching data and towards discovering intelligence.
+
+---
+
+# 👨‍💻 Team
+
+**RakshakAnalytics**
+
+Datathon 2026
+
+Challenge
+
+**Intelligent Conversational AI for Karnataka State Police Crime Database**
+
+---
+
+# 🔗 Repository
+
+https://github.com/Harsh-g-30/ksp-ai-investigator
+
+---
+
+# ⭐ Built for Datathon 2026
+
+*"Empowering investigators with AI-driven crime intelligence, explainable analytics, and intelligent decision support."*
