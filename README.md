@@ -82,5 +82,5 @@ Database: Catalyst Data Store (26 tables, 450+ cases)
 
 **Challenge**: Intelligent Conversational AI for KSP Crime Database  
 **Hackathon**: Datathon 2026  
-**Team**: Harsh Gaur  
+**Team**: Rakshakanalytics
 **GitHub**: [Harsh-g-30/ksp-ai-investigator](https://github.com/Harsh-g-30/ksp-ai-investigator)
