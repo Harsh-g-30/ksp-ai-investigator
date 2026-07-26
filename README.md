@@ -3,7 +3,7 @@
 **An Intelligent Conversational AI Platform for Crime Database Analysis**
 
 ## Live Demo
-🔴 **[Live App]([https://rakshakanalytics-60074366475.development.catalystserverless.in/app/index.html])**
+🔴 **[https://rakshakanalytics-60074366475.development.catalystserverless.in/app/index.html]**
 
 ## What It Does
 
