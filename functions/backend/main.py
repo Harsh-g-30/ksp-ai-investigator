@@ -415,37 +415,33 @@ _token_cache = {"access_token": None, "expires_at": 0}
 
 
 def _get_quickml_access_token():
-    """
-    Refreshes a Zoho OAuth access token using a Self Client refresh token.
-
-    SETUP (one-time, do this before first deploy):
-    1. Go to https://api-console.zoho.in -> Add Client -> Self Client.
-    2. Generate Code with scope: QuickML.deployment.READ,ZohoCatalyst.mlkit.READ
-       (if you get a 401 later, add ZohoCatalyst.zcql.CREATE too — Zoho doesn't
-       always document the exact scope a given endpoint needs up front).
-    3. Exchange that grant code for access_token + refresh_token by POSTing to
-       https://accounts.zoho.in/oauth/v2/token with grant_type=authorization_code
-       (one-time — the refresh_token from this step doesn't expire).
-    4. In the Catalyst console: your function -> Configuration -> Environment
-       Variables, add: ZOHO_CLIENT_ID, ZOHO_CLIENT_SECRET, ZOHO_REFRESH_TOKEN.
-    """
     import os
     import time
     import requests
+
+    # Hardcode for deployment (temporary)
+    REFRESH_TOKEN = "1000.2655b1a7219fb8a314545f98a728a662.0f496b7c2aa2e38edb3579a09074aa76"
+    CLIENT_ID = "1000.9TZQL2S5ULLXAJL44FGQTHC6V5GCKX"
+    CLIENT_SECRET = "ff7db1a0e889134d89b6cb6dc234ae53366c593604"
 
     if _token_cache["access_token"] and time.time() < _token_cache["expires_at"]:
         return _token_cache["access_token"]
 
     resp = requests.post("https://accounts.zoho.in/oauth/v2/token", data={
-        "refresh_token": os.environ["ZOHO_REFRESH_TOKEN"],
-        "client_id": os.environ["ZOHO_CLIENT_ID"],
-        "client_secret": os.environ["ZOHO_CLIENT_SECRET"],
+        "refresh_token": REFRESH_TOKEN,
+        "client_id": CLIENT_ID,
+        "client_secret": CLIENT_SECRET,
         "grant_type": "refresh_token",
     }, timeout=10)
     resp.raise_for_status()
     data = resp.json()
+
+    if "access_token" not in data:
+        raise Exception(f"OAuth failed: {data}")
+
     _token_cache["access_token"] = data["access_token"]
-    _token_cache["expires_at"] = time.time() + data.get("expires_in", 3600) - 60  # refresh 1 min early
+    _token_cache["expires_at"] = time.time() + data.get("expires_in", 3600) - 60
+
     return _token_cache["access_token"]
 
 
